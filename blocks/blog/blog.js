@@ -40,6 +40,5 @@ export default function decorate(block) {
     readTimeElement,
     description,
   );
-
   block.replaceChildren(article);
 }
