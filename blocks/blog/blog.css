@@ -1,0 +1,50 @@
+.blog {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.blog-image {
+  margin: 0;
+}
+
+.blog-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.blog-image figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.blog h2 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.blog h3 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  color: #555;
+  font-weight: 400;
+}
+
+.blog .read-time {
+  margin-bottom: 20px;
+  color: #0066cc;
+  font-weight: 600;
+}
+
+.blog p {
+  line-height: 1.7;
+  font-size: 16px;
+}

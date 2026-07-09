@@ -31,7 +31,7 @@ export default function decorate(block) {
 
   const readTimeElement = document.createElement('p');
   readTimeElement.classList.add('read-time');
-  readTimeElement.textContent = `⏱ ${readTime.textContent.trim()} min read`;
+  readTimeElement.textContent = `${readTime.textContent.trim()} min read`;
 
   article.append(
     figure,
